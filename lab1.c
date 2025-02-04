@@ -112,7 +112,8 @@ void parse_input(FILE *file) {
     printf("Total Others: %d\n", oth_count);
 }
 
-int main() {
+int main()
+ {
     FILE *file = fopen("D://Compiler/input.txt", "r");
     if (!file) {
         perror("Failed to open file");
