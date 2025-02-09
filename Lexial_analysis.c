@@ -103,7 +103,7 @@ void parse_input(FILE *file) {
     for (int i = 0; i < 6; i++) {
         printf("%s\n", outputs[i]);
     }
-    
+
     printf("\nTotal Keywords: %d\n", kw_count);
     printf("Total Identifiers: %d\n", id_count);
     printf("Total Math Operators: %d\n", mop_count);
@@ -121,6 +121,6 @@ int main()
     }
     parse_input(file);
     fclose(file);
-    
+
     return 0;
 }
