@@ -1,0 +1,42 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build",
+            "type": "shell",
+            "command": "gcc",
+            "args": [
+                "identify first and follow.c",
+                "-o",
+                "identify first and follow"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ],
+            "detail": "Compiling the C code with GCC"
+        },
+        {
+            "label": "run",
+            "type": "shell",
+            "command": "d:\\Compiler\\identify first and follow",
+            "group": "build",
+            "problemMatcher": []
+        }
+    ]
+}
+[
+    {
+        "key": "ctrl+alt+b",
+        "command": "workbench.action.tasks.runTask",
+        "args": "build"
+    },
+    {
+        "key": "ctrl+alt+r",
+        "command": "workbench.action.tasks.runTask",
+        "args": "run"
+    }
+]
