@@ -61,5 +61,6 @@
     "clang-diagnostic-error",
     "clang-diagnostic-error"
   ],
-  "CodeGPT.apiKey": "CodeGPT Plus Beta"
+  "CodeGPT.apiKey": "CodeGPT Plus Beta",
+  "C_Cpp.errorSquiggles": "enabled"
 }
