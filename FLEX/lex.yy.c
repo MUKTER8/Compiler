@@ -440,8 +440,8 @@ int yy_flex_debug = 0;
 #define YY_MORE_ADJ 0
 #define YY_RESTORE_YY_MORE_OFFSET
 char *yytext;
-#line 1 "replace_abc.l"
-#line 2 "replace_abc.l"
+#line 1 "lex_abc.l"
+#line 2 "lex_abc.l"
 /* Program to replace 'abc' with 'ABC' */
 #include <stdio.h>
 #line 447 "lex.yy.c"
@@ -662,7 +662,7 @@ YY_DECL
 		}
 
 	{
-#line 6 "replace_abc.l"
+#line 6 "lex_abc.l"
 
 #line 667 "lex.yy.c"
 
@@ -723,18 +723,18 @@ do_action:	/* This label is used only to access EOF actions. */
 
 case 1:
 YY_RULE_SETUP
-#line 7 "replace_abc.l"
+#line 7 "lex_abc.l"
 { printf("ABC"); }   /* Replace 'abc' with 'ABC' */
 	YY_BREAK
 case 2:
 /* rule 2 can match eol */
 YY_RULE_SETUP
-#line 8 "replace_abc.l"
+#line 8 "lex_abc.l"
 { ECHO; }            /* Print other characters as-is */
 	YY_BREAK
 case 3:
 YY_RULE_SETUP
-#line 9 "replace_abc.l"
+#line 9 "lex_abc.l"
 ECHO;
 	YY_BREAK
 #line 740 "lex.yy.c"
@@ -1742,7 +1742,7 @@ void yyfree (void * ptr )
 
 #define YYTABLES_NAME "yytables"
 
-#line 9 "replace_abc.l"
+#line 9 "lex_abc.l"
 
 
 int main() {
